@@ -1,0 +1,55 @@
+.startPage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#about-us {
+  background: #4e89bb;
+  padding: 50px;
+}
+#team {
+  background: #3f6789;
+  padding: 50px;
+}
+#contacts {
+  padding: 50px;
+  background: #274b6a;
+}
+.startPage_title {
+  font-size: 30px;
+  margin: 0.3em 0;
+  color: #1c364c;
+}
+#contacts .startPage_title {
+  color: #09243a;
+}
+.contacts-wrap {
+  display: flex;
+  flex-flow: wrap;
+}
+.contacts {
+  padding: 20px 20px 20px 0;
+  color: #09243a;
+  font-size: 20px;
+  min-width: 300px;
+}
+.contacts_item {
+  padding-bottom: 10px;
+  margin: 14px 0;
+  border-bottom: 1px solid;
+}
+.contacts_item a {
+  color: #09243a;
+  font-size: 20px;
+  text-decoration: none;
+}
+.contacts_item svg {
+  margin-right: 10px;
+  font-size: 25px;
+}
+#map {
+  flex-grow: 1;
+  height: 230px;
+  min-width: 300px;
+}

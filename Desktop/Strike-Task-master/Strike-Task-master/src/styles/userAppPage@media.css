@@ -1,0 +1,114 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .dashboard {
+    justify-content: space-between;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  /* left panel */
+  .left-panel {
+    width: 100%;
+    font-size: 18px;
+    max-width: none;
+  }
+  .left-nav-2 {
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: none;
+    left: 10px;
+    width: 100%;
+    background: transparent;
+  }
+  .left-nav {
+    padding: 20px 50px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* header */
+  .search {
+    display: none;
+  }
+  .user-profile {
+    margin-left: auto;
+  }
+  .user-profile_avatar {
+    width: 25px;
+    height: 25px;
+  }
+
+  /* filters */
+  .filters-wrap_icon-mobil-menu {
+    display: block;
+    padding: 20px;
+  }
+  .filters {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .filters.filters-open {
+    height: auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+  .filters_item {
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .filters_item span {
+    margin: 5px 0;
+    line-height: 2;
+  }
+  .filters_item input {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    transform: translateX(50%) translateY(5%);
+  }
+
+  /* tasks */
+  .task-container_header {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .new-task-block {
+    width: 84%;
+  }
+  .new-task-block_closeModale {
+    position: fixed;
+    right: 7%;
+    top: 10px;
+  }
+  .dashboard {
+    justify-content: space-evenly;
+  }
+  .dashboard_item {
+    min-width: 300px;
+    margin: 10px 0px;
+    padding: 20px 0px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+}

@@ -1,0 +1,85 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  /* menu */
+  .nav {
+    position: absolute;
+    width: 100%;
+    background: #1c3448;
+    flex-direction: column;
+    align-items: flex-start;
+    left: 0;
+    top: -500px;
+    padding: 100px 45px 50px;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .nav.menu-open {
+    top: 0px;
+    z-index: 1;
+  }
+  .nav_item:not(.nav_item--btn) {
+    border: none;
+    font-size: 20px;
+    padding: 12px;
+  }
+  .header_icon-mobil-menu {
+    display: inline-block;
+    z-index: 2;
+  }
+  .wrap-btns {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .sidn-in--btn,
+  .sidn-up--btn {
+    margin: 5px;
+  }
+  /* slider */
+  .silder .slider_wraper {
+    height: 70vw;
+  }
+  .silder_btn:not(:disabled) {
+    opacity: 1;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  /* start page */
+  .startPage #about-us,
+  .startPage #team,
+  .startPage #contacts {
+    padding: 20px 15px;
+  }
+  .startPage * {
+    box-sizing: border-box;
+  }
+  .startPage .contacts {
+    width: 100%;
+    min-width: auto;
+    padding: 0;
+  }
+  .gallery_item__content {
+    padding: 15px 20px;
+  }
+  .gallery_item__name {
+    margin: 4px 0;
+    font-size: 19px;
+  }
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+}

@@ -1,0 +1,369 @@
+#root.root-user-app {
+  height: 100vh;
+}
+/* SVG */
+.priority-1 {
+  color: #4caf50;
+}
+.priority-2 {
+  color: #ffeb3b;
+}
+.priority-3 {
+  color: #ff9800;
+}
+.priority-4 {
+  color: #f44336;
+}
+.priority-4,
+.priority-3,
+.priority-2,
+.priority-1 {
+  position: absolute;
+  top: -42px;
+  left: -24px;
+  font-size: 25px;
+  margin-right: 15px;
+}
+/* dashboard */
+
+.dashboard--wrap {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+}
+.zero-task {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.dashboard .zero-task {
+  margin-top: 50px;
+}
+
+.dashboard_title {
+  font-size: 30px;
+  color: #47b719;
+  text-align: center;
+  text-transform: uppercase;
+}
+.dashboard_item {
+  flex-grow: 1;
+  width: 25%;
+  min-width: 475px;
+  padding: 20px;
+  background: #1c364c;
+  margin: 20px;
+  border-radius: 5px;
+}
+.dashboard_item__head {
+  margin-bottom: -53px;
+  border-radius: 5px 5px 0 0;
+  padding: 20px;
+  margin: 0px 20px -24px;
+  text-transform: uppercase;
+  color: #03121f;
+  font-weight: 900;
+}
+.dashboard_item .filters-wrap {
+  margin-bottom: -20px;
+  margin-top: 20px;
+}
+.dashboard_item__head---priority-1 {
+  background: #4caf4f;
+}
+.dashboard_item__head---priority-2 {
+  background: #ffeb3b;
+}
+.dashboard_item__head---priority-3 {
+  background: #ff9800;
+}
+.dashboard_item__head---priority-4 {
+  background: #f44336;
+}
+
+/* CREATE NEW TASK */
+.new-task-block {
+  position: relative;
+  width: 500px;
+  background: white;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.new-task-block > div {
+  width: 100%;
+  box-sizing: border-box;
+}
+.new-task-block_closeModale {
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  background: #ffffff;
+  font-size: 23px;
+  color: #fd7e5c;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.new-task-block h3 {
+  color: #8b8f92;
+  font-weight: 300;
+}
+.new-task-block #title {
+  color: #4dd0e1;
+  border-radius: 0;
+  display: block;
+  font-size: 21px;
+  text-transform: capitalize;
+  border: none;
+  font-weight: bold;
+}
+.new-task-block #title::placeholder {
+  color: #1c364c;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.new-task-block input {
+  width: 100%;
+}
+.new-task-block textarea {
+  width: 100%;
+  min-height: 100px;
+  box-sizing: border-box;
+}
+.priority-group {
+  display: flex;
+  flex-direction: column;
+}
+.priority-group_label {
+  padding: 5px 0;
+  text-transform: capitalize;
+}
+.priority-group_options {
+  background: #4dd0e140;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-left: 4px solid #1e364c;
+  color: #1c364c;
+}
+.custom-file--wrap img {
+  max-width: 295px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.custom-file-input {
+  padding: 10px;
+  border: none;
+  background: #1e364c;
+  max-width: 300px;
+  margin-right: 14px;
+}
+.custom-file_image {
+  position: relative;
+}
+.custom-file--wrap svg {
+  color: #1c364c94;
+  font-size: 31px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.new-task-block_btn {
+  float: right;
+  font-size: 29px;
+  color: white;
+  background: #49bb16;
+  border-radius: 50%;
+  padding: 12px;
+  height: 0.875em;
+}
+.new-task-block_btn--disabled {
+  background: #8a9486;
+}
+.custom-file--wrap {
+  margin: 20px 0;
+}
+.new-task-block_group-field {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* NEW TASKS */
+.new-tasks--wraper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-self: flex-start;
+}
+.new-tasks {
+  width: 100%;
+  background: #f5f5f5;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px -6px 6px 0px #0c18231c;
+}
+
+/* TASK_CONTAINER */
+.task-container {
+  position: relative;
+  padding: 20px;
+  margin: 4px 0;
+  background: #fff;
+}
+.task-container_icon-remove {
+  position: absolute;
+  top: -9px;
+  right: -5px;
+  background: #ffffff;
+  font-size: 20px;
+  color: #fd7e5c;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.task-container_header {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.task-container_header__title {
+  width: 100%;
+  flex-grow: 1;
+  font-size: 22px;
+  margin: 0;
+  color: #0c2131;
+}
+.task-container_header__date {
+  color: #605f5f;
+  font-size: 14px;
+  text-align: right;
+  flex-grow: 1;
+}
+.task-container_header__caret {
+  padding: 10px;
+  color: #1c364c;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.2s ease-out;
+}
+.task-container_main-content__desc {
+  font-weight: 100;
+}
+.task-container_header__caret.open {
+  transform: rotate(180deg);
+}
+.task-container_main-content__img {
+  max-width: 100%;
+}
+.saveStatus_btn {
+  margin-right: 5px;
+}
+.ticketStatus-group {
+  margin-top: 15px;
+}
+.ticketStatus-group_label {
+  margin-right: 20px;
+  padding: 5px 0;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #494949;
+  display: block;
+}
+.saveStatus_title {
+  margin: 17px 0 7px;
+}
+
+/* pagination */
+.pagination_btn--wrap {
+  text-align: center;
+}
+.pagination_btn {
+  background: #1c364c;
+  min-width: 60px;
+}
+
+/* filters */
+.filters-wrap {
+  background: #fff0;
+  width: 100%;
+  margin: 0;
+  color: white;
+  box-sizing: border-box;
+}
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.filters_item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.filters-wrap_icon-mobil-menu {
+  display: none;
+}
+.filters_item__title {
+  width: 100%;
+  margin: 0;
+}
+.filters_item__icon {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 0 10px;
+}
+.filters_item--by-status {
+  width: 140px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.filters_item--by-status lable {
+  display: block;
+  width: 100%;
+}
+.filters_item--by-status input {
+  float: left;
+}
+
+.filters_item--by-priority {
+  width: 140px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.filters_item--by-priority lable {
+  display: block;
+  width: 100%;
+}
+.filters_item--by-priority input {
+  float: left;
+}
+.filters_item__title--by-date {
+  width: auto;
+}

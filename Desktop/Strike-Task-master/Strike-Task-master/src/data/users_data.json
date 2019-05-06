@@ -1,0 +1,58 @@
+[
+  {
+    "email": "Turalnikova@gmail.com",
+    "firstname": "Katecfbcfbc",
+    "gender": "муж",
+    "lastname": "Turalnikova",
+    "mobile": "0931527094",
+    "password": "0931527094",
+    "_id": "54673920",
+    "picture": "http://placehold.it/32x32",
+    "age": 37,
+    "company": "URBANSHEE",
+    "phone": "+1 (982) 535-3163",
+    "registered": "Wednesday, May 13, 2015 12:24 AM",
+    "team": [
+      {
+        "id": 0,
+        "name": "Julianne Castro"
+      },
+      {
+        "id": 1,
+        "name": "Charmaine Weaver"
+      },
+      {
+        "id": 2,
+        "name": "Osborn Howell"
+      }
+    ]
+  },
+  {
+    "email": "Boben@gmail.com",
+    "firstname": "Ihor",
+    "gender": "муж",
+    "lastname": "Boben",
+    "mobile": "0937517402",
+    "password": "0937517402",
+    "_id": "51473920",
+    "picture": "http://placehold.it/32x32",
+    "age": 37,
+    "company": "URBANSHEE",
+    "phone": "+1 (982) 535-3163",
+    "registered": "Wednesday, May 13, 2015 12:24 AM",
+    "team": [
+      {
+        "id": 0,
+        "name": "Julianne Castro"
+      },
+      {
+        "id": 1,
+        "name": "Charmaine Weaver"
+      },
+      {
+        "id": 2,
+        "name": "Osborn Howell"
+      }
+    ]
+  }
+]

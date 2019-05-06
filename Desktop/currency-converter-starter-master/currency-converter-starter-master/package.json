@@ -1,0 +1,16 @@
+{
+  "name": "currency-converter-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "eject": "expo eject",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "expo": "^31.0.4",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.1.tar.gz"
+  }
+}
