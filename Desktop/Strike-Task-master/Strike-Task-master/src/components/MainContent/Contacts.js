@@ -38,7 +38,6 @@ class Contacts extends React.PureComponent {
       script.addEventListener("load", () => {
         this.initMap();
       });
-
       document.body.appendChild(script);
     }
   };
